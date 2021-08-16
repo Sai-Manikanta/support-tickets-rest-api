@@ -21,7 +21,7 @@ mongoose.connect(DB, {
 
 const port = process.env.PORT || 9000;
 const server = app.listen(port, () => {
-    console.log(`Api listening on http://localshost:${port}`)
+    console.log(`Api listening on http://localhost:${port}`)
 });
 
 // For unhandles asyncronous errors
